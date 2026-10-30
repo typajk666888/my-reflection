@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>My reflection</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* 每周区块样式，去掉左右分栏，文字在上图片在下 */
+			.week-block{
+				max-width: 72rem;
+				margin: 6rem auto;
+				padding: 0 2rem;
+			}
+			/* 分割线：淡灰色横线 */
+			.week-block::before {
+				content: "";
+				display: block;
+				width: 100%;
+				height: 1px;
+				background-color: #aaaaaa;
+				opacity: 0.35;
+				margin-bottom: 4rem;
+			}
+			/* 第一个week1不要顶部分割线 */
+			.week-block:first-of-type::before{
+				display: none;
+			}
+			.week-block img{
+				display:block;
+				max-width:100%;
+				margin-top:1.5rem;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>I'm Tang Ying</h1>
+							<p class="major">This is my weekly feedback for the 5780 course</p>
+							<ul class="actions stacked">
+								<li><a href="#week1" class="button large wide smooth-scroll-middle">Go to weekly Reflections</a></li>
+							</ul>
+						</div>
+					</section>
+
+<!-- Week 1 课程反思：文字在上，图片放在文字下方 -->
+<section id="week1" class="week-block">
+    <h2>Week 1 Reflection</h2>
+    <p>Is google making us stupid?</p>
+    <p>This was my first lecture in the opening week of the semester. During the session, the tutor raised a thought‑provoking question: does technology make us dumber? To be honest, my initial reaction was yes. With technological advances, especially the rise of AI, people have grown increasingly reliant on these tools, gradually losing opportunities to explore knowledge and think independently. It seemed to me that this would weaken our thinking abilities over time.
+However, the tutor’s response made me reflect deeply. It is not technology itself that makes us dumber. Technology alone cannot determine whether we become smarter or less capable. It reshapes how we perceive information, sustain attention and store memory — for instance, we no longer memorise large amounts of facts deliberately and outsource memory work to tools. Yet this does not mean our intelligence declines.
+Outcomes are co‑shaped by an interplay of technology, platform mechanisms, capital, social contexts, and our own choices of how we use these tools. Many technologies are inherently designed to prioritise shallow, instant feedback. Algorithms compete for our attention and can easily get us stuck in superficial thinking. Even so, as users, we retain agency. We can actively decide when to rely on tools, and when to commit to deep reading and independent reasoning.
+Human beings possess strong individual agency. This lecture has reminded me that throughout my upcoming studies, I should keep exploring actively, think critically and stay committed to learning.</p>
+    <img src="images/week1 screenshot.png" alt="week1 screenshot">
+</section>
+
+<!-- Week 2 课程反思 -->
+<section id="week2" class="week-block">
+    <h2>Week 2 Reflection</h2>
+    <p>Creating Websites</p>
+    <p>This week, I attended my very first workshop and I was extremely excited! We learned how to create web pages in class. Although I had previewed the material in advance, I still struggled a bit during the class. Fortunately, the teacher helped us, and I eventually successfully created the web page! This is truly amazing!</p>
+    <img src="images/week2 screenshot.png" alt="week2 screenshot">
+</section>
+
+<!-- Week 3 课程反思 -->
+<section id="week3" class="week-block">
+    <h2>Week 3 Reflection</h2>
+    <p>Web Scraping</p>
+    <p>In this week’s workshop, we learned about web scraping, which was an amazing experience. As someone with almost no background in computing, it was my first time discovering that we can view the source code behind any website. I immediately wondered whether this would easily lead to website data leaks.
+Our tutor explained that the source code we can access is only the front-end code for page display. The website’s back-end database and sensitive private user data are not directly exposed. Besides, web scraping comes with legal and ethical limits: we are not allowed to scrape protected, sensitive or restricted data, and platforms also use anti-scraping systems for protection.
+
+Next, the teacher demonstrated how to carry out web scraping. It can be quite challenging, but fortunately, we had a web scraping extension that made the task much easier. I tried scraping content from the homepage of BBC Video, and it was really fun.</p>
+    <img src="images/week3 screenshot.png" alt="week3 screenshot">
+</section>
+
+<!-- Week 4 课程反思 -->
+<section id="week4" class="week-block">
+    <h2>Week 4 Reflection</h2>
+    <p>Data and Data Analysis</p>
+    <p>This week's workshop focused on data collection. We formed groups in class and simulated the preliminary preparations for data collection together. Honestly, at first I found it a bit difficult to understand the preparatory work involved in data collection, but thankfully my group members helped explain things to me. In the end, our group decided on the data topic we plan to collect: whether students use generative AI to create creative works. We plan to collect relevant information from public university websites or news articles, and try our best to ensure the ethicality and safety of our data sources. 
+    <img src="images/week4 screenshot.png" alt="week4 screenshot">
+</section>
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<p style="font-size:0.8rem; color:#777;">&copy; Tang Ying. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+			</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+	</body>
+</html>
